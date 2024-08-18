@@ -2,16 +2,16 @@
   display: flex;
   justify-content: center; 
   align-items: center; 
-  min-height: 50vh; /* Ensures the element takes up the full height of the screen */
-  background-color: #f06c64; /* A softer red background */
-  background-image: linear-gradient(135deg, #f06c64 0%, #ffcc70 100%); /* Adds a gradient background */
-  padding: 50px; /* Adjusted padding for spacing */
-  border-radius: 15px; /* Adds rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
-  margin: auto; /* Centers the element in both directions */
-  max-width: 600px; /* Limits the width for better readability */
+  min-height: 50vh;
+  background-color: #f06c64;
+  background-image: linear-gradient(135deg, #f06c64 0%, #ffcc70 100%);
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  max-width: 0px;
   text-align: center;
-  color: white; /* Ensures text is visible against the background */
+  color: white;
 }
 
 .App-logo {
