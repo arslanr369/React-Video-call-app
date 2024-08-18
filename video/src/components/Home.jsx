@@ -11,6 +11,7 @@ const Home = () =>{
 
     return (
         <div>
+            <h2> Video Call APP</h2>
             <div>
                 <input value={input} onChange={(e)=> setinput(e.target.value)} type="text" placeholder="Enter your Name..."/>
                 <button onClick={submitHandler}>join</button>
